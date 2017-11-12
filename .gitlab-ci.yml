@@ -3,4 +3,4 @@ image: registry.git.7thplanet.org/lumen/repository
 build:
   script:
   - 'bash build.sh'
-  - 'cd repositories && swift upload lumen-apt *'
+  - 'cd repository && swift upload lumen-apt *'
