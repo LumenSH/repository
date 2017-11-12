@@ -13,3 +13,4 @@ package:
 	mv restic* restic
 	chmod +x restic
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --prefix /usr/local/bin restic
+	mv *.deb ../../repository/pool/stable/binary-amd64/
