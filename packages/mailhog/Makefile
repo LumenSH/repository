@@ -8,8 +8,8 @@ DOWNLOADURL=https://github.com/mailhog/MailHog/releases/download/v$(VERSION)/Mai
 
 .PHONY: package
 package:
-#	wget $(DOWNLOADURL)
-#	mv MailHog_linux_amd64 mailhog
-#	chmod +x mailhog
+	wget $(DOWNLOADURL)
+	mv MailHog_linux_amd64 mailhog
+	chmod +x mailhog
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --description $(DESCRIPTION) --config-files /etc/systemd/system/mailhog.service ./mailhog=/usr/local/bin/mailhog ./mailhog.service=/etc/systemd/system/mailhog.service
 	mv *.deb ../../repository/pool/stable/binary-amd64/
