@@ -1,6 +1,6 @@
 NAME=fd
 ARCH=amd64
-VERSION=5.0.0
+VERSION=6.0.0
 MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="A simple, fast and user-friendly alternative to find."
 
