@@ -8,7 +8,7 @@ DOWNLOADURL=https://github.com/xenolf/lego/releases/download/v$(VERSION)/$(FILEN
 
 .PHONY: package
 package:
-	wget $(DOWNLOADURL)
+	wget $(DOWNLOADURL) > /dev/null
 	tar xf $(FILENAME)
 	mv lego_linux_amd64 lego
 	chmod +x lego

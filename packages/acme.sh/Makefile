@@ -9,7 +9,7 @@ DOWNLOADURL=https://raw.githubusercontent.com/Neilpang/acme.sh/$(VERSION)/acme.s
 
 .PHONY: package
 package:
-	wget $(DOWNLOADURL)
+	wget $(DOWNLOADURL) > /dev/null
 	chmod +x acme.sh
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --post-install post-install --before-remove pre-remove --description $(DESCRIPTION) --prefix /usr/local/bin acme.sh
 	mv *.deb ../../repository/pool/stable/binary-amd64/

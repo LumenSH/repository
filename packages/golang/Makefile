@@ -8,7 +8,7 @@ DOWNLOADURL=https://redirector.gvt1.com/edgedl/go/$(FILENAME)
 
 .PHONY: package
 package:
-	wget $(DOWNLOADURL)
+	wget $(DOWNLOADURL) > /dev/null
 	tar -C /usr/local/ -xzf ./$(FILENAME) > /dev/null
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --description $(DESCRIPTION) --post-install post-install --before-remove pre-remove /usr/local/go
 	rm -rf go*.tar.gz /usr/local/go
