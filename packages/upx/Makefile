@@ -13,4 +13,5 @@ package:
 	mv upx-$(VERSION)-amd64_linux/upx upx
 	chmod +x upx
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --description $(DESCRIPTION) --prefix /usr/local/bin upx
-
+	mv *.deb ../../repository/pool/stable/binary-amd64/
+	rm -r upx*
