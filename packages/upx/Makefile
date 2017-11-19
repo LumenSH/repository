@@ -8,7 +8,7 @@ DOWNLOADURL=https://github.com/upx/upx/releases/download/v$(VERSION)/$(FILENAME)
 
 .PHONY: package
 package:
-	wget $(DOWNLOADURL) > /dev/null
+	wget -q $(DOWNLOADURL)
 	tar xf $(FILENAME)
 	mv upx-$(VERSION)-amd64_linux/upx upx
 	chmod +x upx

@@ -8,7 +8,7 @@ DOWNLOADURL=https://github.com/prometheus/node_exporter/releases/download/v$(VER
 
 .PHONY: package
 package:
-	wget $(DOWNLOADURL) > /dev/null
+	wget -q $(DOWNLOADURL)
 	tar xf $(FILENAME)
 	mv node_exporter*/node_exporter .
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --description $(DESCRIPTION) --prefix /usr/local/bin node_exporter

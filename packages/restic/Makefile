@@ -8,7 +8,7 @@ DOWNLOADURL=https://github.com/restic/restic/releases/download/v$(VERSION)/$(FIL
 
 .PHONY: package
 package:
-	wget $(DOWNLOADURL) > /dev/null
+	wget -q $(DOWNLOADURL)
 	bunzip2 $(FILENAME)
 	mv restic* restic
 	chmod +x restic
