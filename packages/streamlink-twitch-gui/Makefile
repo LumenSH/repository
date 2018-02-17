@@ -1,6 +1,6 @@
 NAME=streamlink-twitch-gui
 ARCH=amd64
-VERSION=1.4.0
+VERSION=1.4.1
 FILENAME=streamlink-twitch-gui-v1.4.0-linux64.tar.gz
 MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Streamlink Twitch GUI"
