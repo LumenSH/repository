@@ -1,10 +1,10 @@
 NAME=go
 ARCH=amd64
-VERSION=1.9.2
+VERSION=1.10
 FILENAME=go$(VERSION).linux-amd64.tar.gz
 MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Go programming language"
-DOWNLOADURL=https://redirector.gvt1.com/edgedl/go/$(FILENAME)
+DOWNLOADURL=https://dl.google.com/go/$(FILENAME)
 
 .PHONY: package
 package:
