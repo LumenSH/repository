@@ -1,4 +1,4 @@
-image: registry.git.7thplanet.org/lumen/repository
+image: registry.lumen.sh/lumen/repository
 
 build:
   script:
