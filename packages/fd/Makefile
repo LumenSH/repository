@@ -1,11 +1,10 @@
 NAME=fd
 ARCH=amd64
-VERSION=6.0.0
+VERSION=6.3.0
 MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="A simple, fast and user-friendly alternative to find."
 
 .PHONY: package
 package:
-	chmod +x fd
-	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --description $(DESCRIPTION) --prefix /usr/local/bin fd
+	wget https://github.com/sharkdp/fd/releases/download/v${VERSION}/fd_${VERSION}_amd64.deb
 	mv *.deb ../../repository/pool/stable/binary-amd64/
