@@ -3,7 +3,7 @@ ARCH=amd64
 VERSION=1.3.4
 FILENAME=micro-$(VERSION)-linux64.tar.gz
 MAINTAINER="<admin@lumen.sh>"
-DESCRIPTION="UPX is a free, portable, extendable, high-performance executable packer for several executable formats."
+DESCRIPTION="A modern and intuitive terminal-based text editor https://micro-editor.github.io"
 DOWNLOADURL=https://github.com/zyedidia/micro/releases/download/v$(VERSION)/$(FILENAME)
 
 .PHONY: package
