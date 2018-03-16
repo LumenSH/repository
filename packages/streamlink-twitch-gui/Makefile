@@ -11,4 +11,3 @@ package:
 	wget -q $(DOWNLOADURL)
 	tar xf $(FILENAME)
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --post-install ./streamlink-twitch-gui/add-menuitem.sh --before-remove ./streamlink-twitch-gui/remove-menuitem.sh --description $(DESCRIPTION) --prefix /opt "streamlink-twitch-gui"
-	mv *.deb ../../repository/pool/stable/binary-amd64/

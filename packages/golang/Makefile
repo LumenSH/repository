@@ -12,4 +12,3 @@ package:
 	tar -C /usr/local/ -xzf ./$(FILENAME)
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --description $(DESCRIPTION) --post-install post-install --before-remove pre-remove /usr/local/go
 	rm -rf go*.tar.gz /usr/local/go
-	mv *.deb ../../repository/pool/stable/binary-amd64/

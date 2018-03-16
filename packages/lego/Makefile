@@ -13,4 +13,3 @@ package:
 	mv lego_linux_amd64 lego
 	chmod +x lego
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --description $(DESCRIPTION) --prefix /usr/local/bin lego
-	mv *.deb ../../repository/pool/stable/binary-amd64/

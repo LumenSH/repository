@@ -12,4 +12,3 @@ package:
 	mv $(FILENAME) presla
 	chmod +x presla
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --description $(DESCRIPTION) --prefix /usr/local/bin presla
-	mv *.deb ../../repository/pool/stable/binary-amd64/

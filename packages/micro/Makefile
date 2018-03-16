@@ -13,5 +13,4 @@ package:
 	mv micro-$(VERSION)/micro micro
 	chmod +x micro
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --description $(DESCRIPTION) --prefix /usr/local/bin micro
-	mv *.deb ../../repository/pool/stable/binary-amd64/
 	rm -r micro*

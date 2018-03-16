@@ -12,4 +12,3 @@ package:
 	tar xf $(FILENAME)
 	mv node_exporter*/node_exporter .
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --description $(DESCRIPTION) --prefix /usr/local/bin node_exporter
-	mv *.deb ../../repository/pool/stable/binary-amd64/

@@ -17,5 +17,4 @@ package:
 		./teleport/tsh=/usr/local/bin/ \
 		./teleport/tctl=/usr/local/bin/ \
 		./teleport/examples/etcd/teleport.yaml=/etc/teleport/
-	mv *.deb ../../repository/pool/stable/binary-amd64/
 

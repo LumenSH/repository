@@ -11,4 +11,3 @@ package:
 	wget -q $(DOWNLOADURL)
 	chmod +x youtube-dl
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --description $(DESCRIPTION) --prefix /usr/local/bin youtube-dl
-	#mv *.deb ../../repository/pool/stable/binary-amd64/

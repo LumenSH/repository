@@ -11,4 +11,3 @@ package:
 	wget -q --header "Cookie: oraclelicense=accept-securebackup-cookie" $(DOWNLOADURL)
 	tar xf $(FILENAME)
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --post-install post-install --before-remove pre-remove --description $(DESCRIPTION) --prefix /opt "jdk-9.0.1"
-	mv *.deb ../../repository/pool/stable/binary-amd64/
