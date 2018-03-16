@@ -1,6 +1,0 @@
-image: registry.lumen.sh/lumen/repository
-
-build:
-  script:
-  - 'bash build.sh'
-  - 'cd repository && swift upload lumen-apt *'
