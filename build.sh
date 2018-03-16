@@ -9,6 +9,8 @@ case $1 in
 		./build.sh $dir
         done
         cd /repository
+        find ./packages/ -name "*.deb" -type f -a -not -path '*.gitkeep*' -exec mv {} /repository/repository/pool/stable/binary-amd64/ \;
+
 	./build.sh build
 	./build.sh sign
 	./build.sh cleanup
@@ -29,9 +31,6 @@ case $1 in
     *)
         cd $1
 	make
-
-	cd /repository
-	find ./packages/ -name "*.deb" -type f -a -not -path '*.gitkeep*' -exec mv {} /repository/repository/pool/stable/binary-amd64/ \;
         ;;
 esac
 

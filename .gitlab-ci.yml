@@ -1,0 +1,12 @@
+image: debian stages:
+  - deploy deploy:
+  stage: deploy
+  only:
+   - master
+  script:
+   - 'which ssh-agent || ( apt-get update -y > /dev/null && apt-get install openssh-client -y > /dev/null )'
+   - eval $(ssh-agent -s)
+   - ssh-add <(echo "$SSH_PRIVATE_KEY")
+   - mkdir -p ~/.ssh
+   - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+   - ssh root@`printenv APT_SERVER` 'cd /repository && git pull && ./ci.sh'
