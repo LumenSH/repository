@@ -4,5 +4,5 @@ FISH_LINK="http://ftp.gwdg.de/pub/opensuse/repositories/shells:/fish:/release:/2
 
 .PHONY: package
 package:
-	wget -q $(FISH_COMMON_LINK)
-	wget -q $(FISH_LINK)
+	wget $(FISH_COMMON_LINK)
+	wget $(FISH_LINK)
