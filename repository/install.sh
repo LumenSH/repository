@@ -56,7 +56,7 @@ print_bold() {
 	echo "${red}================================================================================${normal}"
 }
 
-if [ $DISTRO != "debian" ]; then
+if [ $DISTRO != "debian" ] && [ $DISTRO != "ubuntu" ]; then
 	print_bold "Your distribution, identified as \"${DISTRO}\", is not currently supported."
 	exit 1;
 fi
