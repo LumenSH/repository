@@ -1,18 +1,37 @@
 #/bin/bash
 
-# Build packages
-echo "Building packages"
+case $1 in
+    all)
+	./build.sh cleanup
+	echo "Building all packages"
+        for dir in ./packages/*; do
+		echo "Building $dir"
+		./build.sh $dir
+        done
+        cd /repository
+	./build.sh build
+	./build.sh sign
+	./build.sh cleanup
+	;;
+    sign)
+	# remove already existing files
+	find ./repository/dists -type f -a -not -path '*.gitkeep*' -exec rm {} \;
 
-for filename in ./packages/*; do
-	cd $filename
+	echo "Building repository"
+	cd repository
+	./.generate.sh
+	;;
+    cleanup)
+	echo "Cleanup packages"
+	git checkout -- packages/
+	git clean -fd packages/
+	;;
+    *)
+        cd $1
 	make
-	cd ../..
-done
 
+	cd /repository
+	find ./packages/ -name "*.deb" -type f -a -not -path '*.gitkeep*' -exec mv {} /repository/repository/pool/stable/binary-amd64/ \;
+        ;;
+esac
 
-echo "Building repository"
-
-# Build repository
-cd repository
-swift list lumen-apt | awk "/pool\// { print $1 ;}" | xargs -I{} swift download lumen-apt {} --skip-identical
-bash .generate.sh
