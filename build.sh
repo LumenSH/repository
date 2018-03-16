@@ -15,6 +15,7 @@ case $1 in
 	./build.sh cleanup
 	;;
     sign)
+	find ./packages/ -name "*.deb" -type f -a -not -path '*.gitkeep*' -exec mv {} /repository/repository/pool/stable/binary-amd64/ \;
 	# remove already existing files
 	find ./repository/dists -type f -a -not -path '*.gitkeep*' -exec rm {} \;
 
