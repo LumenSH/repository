@@ -1,5 +1,9 @@
-image: debian stages:
-  - deploy deploy:
+image: debian
+
+stages:
+  - deploy
+
+deploy:
   stage: deploy
   only:
    - master
