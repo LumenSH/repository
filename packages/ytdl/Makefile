@@ -8,6 +8,6 @@ DOWNLOADURL=https://github.com/rg3/youtube-dl/releases/download/$(VERSION)/$(FIL
 
 .PHONY: package
 package:
-	wget -q $(DOWNLOADURL)
+	wget $(DOWNLOADURL)
 	chmod +x youtube-dl
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --description $(DESCRIPTION) --prefix /usr/local/bin youtube-dl

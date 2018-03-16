@@ -8,7 +8,7 @@ DOWNLOADURL=https://github.com/3stadt/presla/releases/download/v$(VERSION)/$(FIL
 
 .PHONY: package
 package:
-	wget  $(DOWNLOADURL)
+	wget $(DOWNLOADURL)
 	mv $(FILENAME) presla
 	chmod +x presla
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --description $(DESCRIPTION) --prefix /usr/local/bin presla

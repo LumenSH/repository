@@ -8,6 +8,6 @@ DOWNLOADURL=https://github.com/streamlink/streamlink-twitch-gui/releases/downloa
 
 .PHONY: package
 package:
-	wget -q $(DOWNLOADURL)
+	wget $(DOWNLOADURL)
 	tar xf $(FILENAME)
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --post-install ./streamlink-twitch-gui/add-menuitem.sh --before-remove ./streamlink-twitch-gui/remove-menuitem.sh --description $(DESCRIPTION) --prefix /opt "streamlink-twitch-gui"

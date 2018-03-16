@@ -7,3 +7,4 @@ DESCRIPTION="A simple, fast and user-friendly alternative to find."
 .PHONY: package
 package:
 	wget https://github.com/sharkdp/fd/releases/download/v${VERSION}/fd_${VERSION}_amd64.deb
+

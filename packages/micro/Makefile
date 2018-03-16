@@ -8,9 +8,8 @@ DOWNLOADURL=https://github.com/zyedidia/micro/releases/download/v$(VERSION)/$(FI
 
 .PHONY: package
 package:
-	wget -q $(DOWNLOADURL)
+	wget $(DOWNLOADURL)
 	tar xf $(FILENAME)
 	mv micro-$(VERSION)/micro micro
 	chmod +x micro
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --description $(DESCRIPTION) --prefix /usr/local/bin micro
-	rm -r micro*

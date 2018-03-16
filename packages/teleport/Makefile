@@ -9,7 +9,7 @@ DOWNLOADURL=https://github.com/gravitational/teleport/releases/download/v$(VERSI
 
 .PHONY: package
 package:
-	wget -q $(DOWNLOADURL)
+	wget $(DOWNLOADURL)
 	tar xf $(FILENAME)
 	cd teleport
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --description $(DESCRIPTION) \

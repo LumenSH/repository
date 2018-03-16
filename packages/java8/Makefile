@@ -8,6 +8,6 @@ DOWNLOADURL=http://download.oracle.com/otn-pub/java/jdk/8u152-b16/aa0333dd301949
 
 .PHONY: package
 package:
-	wget -q --header "Cookie: oraclelicense=accept-securebackup-cookie" $(DOWNLOADURL)
+	wget --header "Cookie: oraclelicense=accept-securebackup-cookie" $(DOWNLOADURL)
 	tar xf $(FILENAME)
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --post-install post-install --before-remove pre-remove --description $(DESCRIPTION) --prefix /opt "jdk1.8.0_152"
