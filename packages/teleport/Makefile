@@ -1,6 +1,6 @@
 NAME="teleport"
 ARCH=amd64
-VERSION=2.5.1
+VERSION=2.5.2
 FILENAME=teleport-v$(VERSION)-linux-amd64-bin.tar.gz
 MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Modern SSH server for clusters and teams. https://gravitational.com/teleport"
