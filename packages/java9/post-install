@@ -1,2 +1,2 @@
-update-alternatives --install /usr/bin/java java /opt/jdk-9.0.1/bin/java 100
-update-alternatives --install /usr/bin/javac javac /opt/jdk-9.0.1/bin/javac 100
+update-alternatives --install /usr/bin/java java /opt/jdk-9.0.4/bin/java 100
+update-alternatives --install /usr/bin/javac javac /opt/jdk-9.0.4/bin/javac 100
