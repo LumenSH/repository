@@ -2,7 +2,7 @@
 
 ./build.sh cleanup
 
-git diff --name-only HEAD@{0} HEAD@{2} | while read file ; do
+git diff --name-only HEAD@{0} HEAD@{1} | while read file ; do
 	if [[ $file == packages/* ]] ; then
 		echo === Changed file: $file ===
 		echo "Compiling package $(dirname $file)"
