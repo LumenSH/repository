@@ -14,7 +14,7 @@ git pull
 for commit in $COMMITS; do
 	echo -e "=== Commit '\e[4;37m$(git log --format=%B -n 1 ${commit})\e[0m' \e[0;33m(${commit}) \e[0m==="
 	git diff --name-only HEAD ${commit} | while read file ; do
-		if [[ $file == packages/*/Makefile ]];  then
+		if [[ $file =~ ^packages/(.*)/Makefile$ ]];  then
 			printf " Compiling ${file} ... "
 			./build.sh ./$(dirname $file) > /dev/null 2>&1
 			printf "done!\n"
