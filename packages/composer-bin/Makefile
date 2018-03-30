@@ -10,5 +10,6 @@ DOWNLOADURL=https://getcomposer.org/download/$(VERSION)/composer.phar
 package:
 	curl -o $(FILENAME) $(DOWNLOADURL)
 	sha256sum --strict -c CHECKSUM
+	chmod +x composer
 	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --description $(DESCRIPTION)  \
 		./composer=/usr/local/bin/
