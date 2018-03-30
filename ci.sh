@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd /repository
+
 LASTCOMMIT=$(git log -1 --pretty=format:"%H")
 trap 'echo Interrupted because of an error && git reset --hard ${LASTCOMMIT} && git clean -fd .' ERR
 set -e;
