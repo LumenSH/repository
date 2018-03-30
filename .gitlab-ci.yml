@@ -13,4 +13,4 @@ deploy:
    - ssh-add <(echo "$SSH_PRIVATE_KEY")
    - mkdir -p ~/.ssh
    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
-   - ssh root@`printenv APT_SERVER` 'cd /repository && git pull && ./ci.sh'
+   - ssh root@`printenv APT_SERVER` '/repository/ci.sh'
