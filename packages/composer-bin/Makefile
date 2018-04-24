@@ -1,6 +1,6 @@
 NAME=composer-bin
 ARCH=amd64
-VERSION=1.6.3
+VERSION=1.6.4
 FILENAME=composer
 MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Dependency Manager for PHP https://getcomposer.org/"
