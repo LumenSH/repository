@@ -1,6 +1,6 @@
 NAME=go
 ARCH=amd64
-VERSION=1.10.1
+VERSION=1.9.6
 FILENAME=go$(VERSION).linux-amd64.tar.gz
 MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="The Go programming language"
