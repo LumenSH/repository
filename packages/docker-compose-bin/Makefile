@@ -1,9 +1,9 @@
 NAME=docker-compose-bin
 ARCH=amd64
-VERSION=1.21.1
+VERSION=1.21.2
 MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Define and run multi-container applications with Docker https://docs.docker.com/compose/"
-DOWNLOADURL=https://github.com/docker/compose/releases/download/1.20.1/docker-compose-Linux-x86_64
+DOWNLOADURL=https://github.com/docker/compose/releases/download/$(VERSION)/docker-compose-Linux-x86_64
 FILENAME=docker-compose
 
 .PHONY: package
