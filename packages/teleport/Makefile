@@ -5,7 +5,7 @@ FILENAME=teleport-v$(VERSION)-linux-amd64-bin.tar.gz
 MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Modern SSH server for clusters and teams. https://gravitational.com/teleport"
 
-DOWNLOADURL=https://github.com/gravitational/teleport/releases/download/v$(VERSION)/teleport-v$(VERSION)-linux-amd64-bin.tar.gz
+DOWNLOADURL=https://get.gravitational.com/teleport-v$(VERSION)-linux-amd64-bin.tar.gz
 
 .PHONY: package
 package:
