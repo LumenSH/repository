@@ -11,4 +11,6 @@ package:
 	wget $(DOWNLOADURL)
 	tar xf $(FILENAME)
 	mv node_exporter*/node_exporter .
-	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --description $(DESCRIPTION) --prefix /usr/local/bin node_exporter
+	fpm -s dir -m $(MAINTAINER) -a $(ARCH) -t deb -n $(NAME) -v $(VERSION) --description $(DESCRIPTION) \
+		./node_exporter=/usr/local/bin/ \
+		./systemd/node_exporter.service=/etc/systemd/system/node_exporter.service
