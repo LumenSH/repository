@@ -1,6 +1,6 @@
 NAME=restic
 ARCH=amd64
-VERSION=0.9.0
+VERSION=0.9.1
 FILENAME=restic_$(VERSION)_linux_amd64.bz2
 MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Fast, secure, efficient backup program"
