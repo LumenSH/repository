@@ -1,6 +1,6 @@
 NAME="vegeta"
 ARCH=amd64
-VERSION=11.1.0
+VERSION=11.2.0
 FILENAME=vegeta-${VERSION}-linux-amd64.tar.gz
 MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="HTTP load testing tool and library. It's over 9000!"
