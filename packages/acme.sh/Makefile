@@ -1,6 +1,6 @@
 NAME="acme.sh"
 ARCH=amd64
-VERSION=2.7.7
+VERSION=2.7.9
 FILENAME=acme.sh
 MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="A pure Unix shell script implementing ACME client protocol"
