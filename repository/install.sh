@@ -74,4 +74,4 @@ exec_cmd "echo 'deb https://apt.lumen.sh stable main' > /etc/apt/sources.list.d/
 print_info 'Running apt-get update...'
 exec_cmd 'apt-get update'
 
-print_bold 'Done!' 'Successfully installed Lumen Package Repository! Have fun :)'
+print_info 'Done!'
