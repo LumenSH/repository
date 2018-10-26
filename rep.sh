@@ -36,6 +36,7 @@ case $1 in
         if [ -d "./packages/shared/${PACKAGE_NAME}" ]; then
             cd "./packages/shared/${PACKAGE_NAME}"
             make TARGET="deb"
+            /repository/rep.sh cleanup
             make TARGET="pacman"
         fi
     ;;
