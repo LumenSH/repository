@@ -1,19 +1,37 @@
 #!/usr/bin/env bash
 
 CONTAINER_NAME="arch"
+TARGET="deb"
+
+FILE="$0"
+
+if [ -L "$0" ]; then
+  FILE=$(readlink "$0")
+fi
+
+DIR=$(dirname $FILE)
+
+# We start in /repository folder
+cd ${DIR}
+
+if [ -e "/usr/sbin/pacman" ]; then
+    TARGET="pacman"
+fi
 
 case $1 in
     sign)
-        find ./packages/ -name "*.deb" -type f -a -not -path '*.gitkeep*' -exec mv {} /repository/public/debian/pool/stable/binary-amd64/ \;
-        find ./public/debian/dists -type f -a -not -path '*.gitkeep*' -exec rm {} \;
-
         echo "Building repository"
-        cd /repository/public/debian
-        ./.generate.sh
-	;;
-	pkgbuild)
-	    find ./packages/ -name "*.pkg.tar.xz" -type f -a -not -path '*.gitkeep*' -exec mv {} /repository/public/archlinux/ \;
-	    docker exec ${CONTAINER_NAME} "cd /arch/ && repo-add lumen.db.tar.gz /arch/*.pkg.tar.xz"
+        if [ ${TARGET} = "deb" ]; then
+            find ./packages/ -name "*.deb" -type f -a -not -path '*.gitkeep*' -exec mv {} /repository/public/debian/pool/stable/binary-amd64/ \;
+            find ./public/debian/dists -type f -a -not -path '*.gitkeep*' -exec rm {} \;
+
+            cd /repository/public/debian
+            ./.generate.sh
+        else
+            find ./packages/ -name "*.pkg.tar.xz" -type f -a -not -path '*.gitkeep*' -exec mv {} /repository/public/archlinux/ \;
+	        cd /repository/public/archlinux/
+	        repo-add lumen.db.tar.gz /repository/public/archlinux/*.pkg.tar.xz
+        fi
 	;;
     cleanup)
         echo "Cleanup packages"
@@ -35,9 +53,7 @@ case $1 in
 
         if [ -d "./packages/shared/${PACKAGE_NAME}" ]; then
             cd "./packages/shared/${PACKAGE_NAME}"
-            make TARGET="deb"
-            /repository/rep.sh cleanup
-            make TARGET="pacman"
+            make TARGET=${TARGET}
         fi
     ;;
 esac
