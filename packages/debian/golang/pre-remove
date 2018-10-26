@@ -1,0 +1,3 @@
+update-alternatives --remove go /usr/local/go/bin/go
+update-alternatives --remove godoc /usr/local/go/bin/godoc
+update-alternatives --remove gofmt /usr/local/go/bin/gofmt

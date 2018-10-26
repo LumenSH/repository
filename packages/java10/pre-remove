@@ -1,2 +1,0 @@
-update-alternatives --remove java /opt/jdk-10.0.1/bin/java
-update-alternatives --remove javac /opt/jdk-10.0.1/bin/javac

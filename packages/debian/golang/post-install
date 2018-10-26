@@ -1,0 +1,3 @@
+update-alternatives --install /usr/bin/go go /usr/local/go/bin/go 100
+update-alternatives --install /usr/bin/godoc godoc /usr/local/go/bin/godoc 100
+update-alternatives --install /usr/bin/gofmt gofmt /usr/local/go/bin/gofmt 100

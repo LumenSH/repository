@@ -1,6 +1,0 @@
-APT::FTPArchive::Release::Codename "stable";
-APT::FTPArchive::Release::Origin "Lumen";
-APT::FTPArchive::Release::Components "lumen";
-APT::FTPArchive::Release::Label "Lumen Packages";
-APT::FTPArchive::Release::Architectures "amd64";
-APT::FTPArchive::Release::Suite "stable";

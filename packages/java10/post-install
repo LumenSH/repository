@@ -1,2 +1,0 @@
-update-alternatives --install /usr/bin/java java /opt/jdk-10.0.1/bin/java 100
-update-alternatives --install /usr/bin/javac javac /opt/jdk-10.0.1/bin/javac 100

@@ -1,2 +1,0 @@
-cd /usr/local/bin
-/usr/local/bin/acme.sh --uninstall
