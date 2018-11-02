@@ -1,6 +1,6 @@
 NAME=micro
 ARCH=amd64
-VERSION=1.3.4
+VERSION=1.4.1
 FILENAME=micro-$(VERSION)-linux64.tar.gz
 MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="A modern and intuitive terminal-based text editor https://micro-editor.github.io"
