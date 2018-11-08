@@ -1,6 +1,6 @@
 NAME=ytdl
 ARCH=amd64
-VERSION=2018.10.05
+VERSION=2018.11.07
 FILENAME=youtube-dl
 MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Fast, secure, efficient backup program"
