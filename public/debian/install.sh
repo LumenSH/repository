@@ -4,6 +4,11 @@ export DEBIAN_FRONTEND=noninteractive
 
 DISTRO=$(. /etc/os-release; echo "$ID");
 
+if [[ ${USER} != "root" ]]; then                                                                                                                                                                                    
+        >&2 echo "error: you cannot perform this operation unless you are root."                                                                                                                                    
+        exit 1                                                                                                                                                                                                      
+fi           
+
 if test -t 1; then
 	ncolors=$(which tput > /dev/null && tput colors)
 	if test -n "$ncolors" && test $ncolors -ge 8; then
