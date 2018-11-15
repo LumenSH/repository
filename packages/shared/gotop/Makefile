@@ -1,6 +1,6 @@
 NAME=gotop
 ARCH=amd64
-VERSION=1.2.14
+VERSION=1.5.1
 FILENAME=gotop_$(VERSION)_linux_amd64.tgz
 MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="A terminal based graphical activity monitor inspired by gtop and vtop"
