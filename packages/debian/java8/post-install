@@ -1,2 +1,2 @@
-update-alternatives --install /usr/bin/java java /opt/jdk1.8.0_162/bin/java 100
-update-alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_162/bin/javac 100
+update-alternatives --install /usr/bin/java java /opt/jdk1.8.0_191/bin/java 100
+update-alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_191/bin/javac 100
