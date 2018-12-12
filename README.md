@@ -14,6 +14,7 @@ Below are all packages listed we currently have + the version. You can also [bro
 
 * Composer (1.6.4)
 * CouchDB (2.1.1-1)
+* Cloudflared (2018.12.1)
 * Docker-compose (0.3.0)
 * fd (6.3.0)
 * fish (2.7.1-1)
