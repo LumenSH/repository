@@ -44,7 +44,7 @@ Below are all packages listed we currently have + the version. You can also [bro
 * presla (0.0.10)
 * qr-filetransfer (0.1.0)
 * streamlink-twitch-gui (1.6.0)
-* teleport (2.6.1)
+* teleport (3.1.0)
 * traefik (1.6.6)
 * up (0.2.1)
 * watchexec (1.8.6)
