@@ -22,6 +22,7 @@ Below are all packages listed we currently have + the version. You can also [bro
 * git-lfs (2.4.0)
 * Golang (1.11)
 * Gotty (2.0.0)
+* grpcurl (1.0.0)
 * httpstat (1.0.0)
 * hugo (0.50)
 * java10 (10.0.1)
