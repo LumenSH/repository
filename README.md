@@ -36,7 +36,7 @@ Below are all packages listed we currently have + the version. You can also [bro
 * youtube-dl (2018.12.09)
 * acme.sh (2.7.9)
 * frp (0.22.0)
-* gotop (1.5.1)
+* gotop (1.7.0)
 * gron (0.5.2)
 * gvisor (1.0.0)
 * lego (0.4.1)
