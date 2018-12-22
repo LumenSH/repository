@@ -1,8 +1,8 @@
+include ../../../config.mk
+
 NAME=java9
-ARCH=amd64
 VERSION=9.0.4
 FILENAME=jdk-9.0.4_linux-x64_bin.tar.gz
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Java 9"
 DOWNLOADURL=http://download.oracle.com/otn-pub/java/jdk/9.0.4+11/c2514751926b4512b076cc82f959763f/jdk-9.0.4_linux-x64_bin.tar.gz
 

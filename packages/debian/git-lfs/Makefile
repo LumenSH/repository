@@ -1,7 +1,7 @@
+include ../../../config.mk
+
 NAME=git-lfs
-ARCH=amd64
 VERSION=2.4.0
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Git extension for versioning large files"
 
 .PHONY: package

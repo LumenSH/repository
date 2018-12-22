@@ -1,8 +1,8 @@
+include ../../../config.mk
+
 NAME=streamlink-twitch-gui
-ARCH=amd64
 VERSION=1.6.0
 FILENAME=streamlink-twitch-gui-v$(VERSION)-linux64.tar.gz
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Streamlink Twitch GUI"
 DOWNLOADURL=https://github.com/streamlink/streamlink-twitch-gui/releases/download/v$(VERSION)/$(FILENAME)
 

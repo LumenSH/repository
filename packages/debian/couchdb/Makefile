@@ -1,7 +1,7 @@
+include ../../../config.mk
+
 NAME=couchdb
-ARCH=amd64
 VERSION=2.1.1-1
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Apache CouchDB"
 
 .PHONY: package

@@ -1,8 +1,8 @@
+include ../../../config.mk
+
 NAME="frp"
-ARCH=amd64
 VERSION=0.22.0
 FILENAME=frp_${VERSION}_linux_amd64.tar.gz
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet."
 
 DOWNLOADURL=https://github.com/fatedier/frp/releases/download/v${VERSION}/${FILENAME}

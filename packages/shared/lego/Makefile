@@ -1,8 +1,8 @@
+include ../../../config.mk
+
 NAME=lego
-ARCH=amd64
 VERSION=0.4.1
 FILENAME=lego_linux_amd64.tar.xz
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Let's Encrypt client and ACME library written in Go"
 DOWNLOADURL=https://github.com/xenolf/lego/releases/download/v$(VERSION)/$(FILENAME)
 

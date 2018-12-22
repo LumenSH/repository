@@ -1,8 +1,8 @@
+include ../../../config.mk
+
 NAME=go
-ARCH=amd64
 VERSION=1.11.2
 FILENAME=go$(VERSION).linux-amd64.tar.gz
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="The Go programming language"
 DOWNLOADURL=https://dl.google.com/go/$(FILENAME)
 

@@ -1,7 +1,7 @@
+include ../../../config.mk
+
 NAME=watchexec
-ARCH=amd64
 VERSION=1.8.6
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Executes commands in response to file modifications"
 
 .PHONY: package

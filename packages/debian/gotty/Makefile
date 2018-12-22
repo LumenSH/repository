@@ -1,8 +1,8 @@
+include ../../../config.mk
+
 NAME="gotty"
-ARCH=amd64
 VERSION=2.0.0
 FILENAME=gotty_$(VERSION)-alpha.3_linux_amd64.tar.gz
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Share your terminal as a web application"
 DOWNLOADURL=https://github.com/yudai/gotty/releases/download/v$(VERSION)-alpha.3/$(FILENAME)
 

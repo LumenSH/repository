@@ -1,8 +1,8 @@
+include ../../../config.mk
+
 NAME=httpstat
-ARCH=amd64
 VERSION=1.0.0
 FILENAME=httpstat-linux-amd64-v$(VERSION)
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="It's like curl -v, with colours."
 DOWNLOADURL=https://github.com/davecheney/httpstat/releases/download/v1.0.0/$(FILENAME)
 

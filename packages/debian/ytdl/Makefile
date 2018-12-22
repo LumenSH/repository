@@ -1,8 +1,8 @@
+include ../../../config.mk
+
 NAME=ytdl
-ARCH=amd64
 VERSION=2018.12.09
 FILENAME=youtube-dl
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Fast, secure, efficient backup program"
 DOWNLOADURL=https://github.com/rg3/youtube-dl/releases/download/$(VERSION)/$(FILENAME)
 

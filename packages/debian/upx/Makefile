@@ -1,8 +1,8 @@
+include ../../../config.mk
+
 NAME=upx
-ARCH=amd64
 VERSION=3.94
 FILENAME=upx-$(VERSION)-amd64_linux.tar.xz
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="UPX is a free, portable, extendable, high-performance executable packer for several executable formats."
 DOWNLOADURL=https://github.com/upx/upx/releases/download/v$(VERSION)/$(FILENAME)
 

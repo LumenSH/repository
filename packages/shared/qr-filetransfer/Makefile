@@ -1,7 +1,7 @@
+include ../../../config.mk
+
 NAME=qr-filetransfer
-ARCH=amd64
 VERSION=0.1.0
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal."
 
 .PHONY: package

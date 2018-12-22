@@ -1,8 +1,8 @@
+include ../../../config.mk
+
 NAME=mailhog
-ARCH=amd64
 VERSION=1.0.0
 FILENAME=lego_linux_amd64.tar.xz
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Web and API based SMTP testing"
 DOWNLOADURL=https://github.com/mailhog/MailHog/releases/download/v$(VERSION)/MailHog_linux_amd64
 

@@ -1,8 +1,8 @@
+include ../../../config.mk
+
 NAME=restic
-ARCH=amd64
 VERSION=0.9.3
 FILENAME=restic_$(VERSION)_linux_amd64.bz2
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Fast, secure, efficient backup program"
 DOWNLOADURL=https://github.com/restic/restic/releases/download/v$(VERSION)/$(FILENAME)
 

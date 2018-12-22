@@ -1,8 +1,8 @@
+include ../../../config.mk
+
 NAME="roadrunner"
-ARCH=amd64
 VERSION="1.2.7"
 FILENAME="roadrunner-$(VERSION)-linux-amd64.tar.gz"
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="HTTP load testing tool and library. It's over 9000!"
 DOWNLOADURL="https://github.com/spiral/roadrunner/releases/download/v$(VERSION)/$(FILENAME)"
 

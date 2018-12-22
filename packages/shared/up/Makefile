@@ -1,8 +1,8 @@
+include ../../../config.mk
+
 NAME=up
-ARCH=amd64
 VERSION=0.2.1
 FILENAME=up
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Ultimate Plumber is a tool for writing Linux pipes with instant live preview."
 DOWNLOADURL=https://github.com/akavel/up/releases/download/v$(VERSION)/$(FILENAME)
 

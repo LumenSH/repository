@@ -1,8 +1,8 @@
+include ../../../config.mk
+
 NAME=grpcurl
-ARCH=amd64
 VERSION=1.0.0
 FILENAME=grpcurl_$(VERSION)_linux_x86_64.tar.gz
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers"
 DOWNLOADURL=https://github.com/fullstorydev/grpcurl/releases/download/v$(VERSION)/grpcurl_$(VERSION)_linux_x86_64.tar.gz
 

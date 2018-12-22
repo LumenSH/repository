@@ -1,8 +1,8 @@
+include ../../../config.mk
+
 NAME="teleport"
-ARCH=amd64
 VERSION=3.1.0
 FILENAME=teleport-v$(VERSION)-linux-amd64-bin.tar.gz
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Modern SSH server for clusters and teams. https://gravitational.com/teleport"
 
 DOWNLOADURL=https://get.gravitational.com/teleport-v$(VERSION)-linux-amd64-bin.tar.gz

@@ -1,8 +1,8 @@
+include ../../../config.mk
+
 NAME=gotop
-ARCH=amd64
 VERSION=1.7.0
 FILENAME=gotop_$(VERSION)_linux_amd64.tgz
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="A terminal based graphical activity monitor inspired by gtop and vtop"
 DOWNLOADURL=https://github.com/cjbassi/gotop/releases/download/$(VERSION)/$(FILENAME)
 

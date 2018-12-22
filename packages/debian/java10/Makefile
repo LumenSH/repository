@@ -1,8 +1,8 @@
+include ../../../config.mk
+
 NAME=java10
-ARCH=amd64
 VERSION=10.0.1
 FILENAME=jdk-10.0.1_linux-x64_bin.tar.gz
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Java 10"
 DOWNLOADURL=http://download.oracle.com/otn-pub/java/jdk/10.0.1+10/fb4372174a714e6b8c52526dc134031e/jdk-10.0.1_linux-x64_bin.tar.gz
 

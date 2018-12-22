@@ -1,8 +1,8 @@
+include ../../../config.mk
+
 NAME=presla
-ARCH=amd64
 VERSION=0.0.10
 FILENAME=presla-v$(VERSION)-linux-amd64-compressed
-MAINTAINER="<admin@lumen.sh>"
 DESCRIPTION="Presla (Presentation Lambda) is an application that runs on your computer. It creates a local webserver that is equipped with remarkjs, allowing you to create your own presentations in markdown."
 DOWNLOADURL=https://github.com/3stadt/presla/releases/download/v$(VERSION)/$(FILENAME)
 
