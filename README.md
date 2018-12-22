@@ -7,7 +7,7 @@ day we decided to create our own custom repository for debian/ubuntu servers.
 Below are all packages listed we currently have + the version. You can also [browse](https://apt.lumen.sh/pool/stable/binary-amd64/) through all the packages and their versions by yourself.
 
 ### Distributions
-* Ubuntu/Debian/Linux Minut
+* Ubuntu/Debian/Linux Mint
 * Archlinux based distributions
 
 ### Packages
@@ -72,3 +72,6 @@ If you want to build/test a package by yourself, you need:
 
 Jump to the directory (named after the package you want to build), enter your console and type in "make".
 
+### Disclaimer
+
+The software and the projects (and their names) belong to their respective owners. If you wish your software to be removed, please contact us at contact@lumen.sh
