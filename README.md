@@ -3,6 +3,18 @@
 Over the years we discovered several tools we find cool, but we didn't want to install/update them by hand everytime we setup a new server/test environment or when a new update has been released. So one 
 day we decided to create our own custom repository for debian/ubuntu servers.
 
+## Installation
+
+If you're on a debian based distribution, run:
+```sh
+[root ~]# wget -O- https://apt.lumen.sh/install.sh | bash
+```
+
+on Archlinux based distributions:
+```sh
+[root ~]# wget -O- https://arch.lumen.sh/install.sh | bash
+```
+
 ## Supported distributions and packages
 Below are all packages listed we currently have + the version. You can also [browse](https://apt.lumen.sh/pool/stable/binary-amd64/) through all the packages and their versions by yourself.
 
