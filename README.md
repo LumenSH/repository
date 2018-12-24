@@ -56,6 +56,7 @@ Below are all packages listed we currently have + the version. You can also [bro
 * mailhog (1.0.0)
 * micro (1.4.1)
 * node_exporter (0.15.2)
+* pax (0.4.1)
 * presla (0.0.10)
 * qr-filetransfer (0.1.0)
 * roadrunner (v1.2.7)
