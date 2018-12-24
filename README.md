@@ -36,7 +36,7 @@ Below are all packages listed we currently have + the version. You can also [bro
 * Gotty (2.0.0)
 * grpcurl (1.0.0)
 * httpstat (1.0.0)
-* hugo (0.50)
+* hugo (0.53)
 * java10 (10.0.1)
 * java8 (1.8.0_191)
 * java9 (9.0.4)
