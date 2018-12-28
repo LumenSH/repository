@@ -7,12 +7,12 @@ day we decided to create our own custom repository for debian/ubuntu servers.
 
 If you're on a debian based distribution, run:
 ```sh
-[root ~]# wget -O- https://apt.lumen.sh/install.sh | bash
+[root ~]# wget -O- https://apt.lumen.sh | sudo bash
 ```
 
 on Archlinux based distributions:
 ```sh
-[root ~]# wget -O- https://arch.lumen.sh/install.sh | bash
+[root ~]# wget -O- https://arch.lumen.sh | sudo bash
 ```
 
 ## Supported distributions and packages
