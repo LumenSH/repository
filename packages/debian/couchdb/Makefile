@@ -1,7 +1,7 @@
 include ../../../config.mk
 
 NAME=couchdb
-VERSION=2.1.1-1
+VERSION=2.3.0
 DESCRIPTION="Apache CouchDB"
 
 .PHONY: package

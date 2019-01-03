@@ -25,7 +25,7 @@ Below are all packages listed we currently have + the version. You can also [bro
 ### Packages
 
 * Composer (1.6.4)
-* CouchDB (2.1.1-1)
+* CouchDB (2.3.0)
 * Cloudflared (2018.12.1)
 * Docker-compose (0.3.0)
 * Dive (0.6.0)
