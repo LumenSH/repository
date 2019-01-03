@@ -1,7 +1,7 @@
 include ../../../config.mk
 
 NAME=ytdl
-VERSION=2018.12.09
+VERSION=2019.01.02
 FILENAME=youtube-dl
 DESCRIPTION="Fast, secure, efficient backup program"
 DOWNLOADURL=https://github.com/rg3/youtube-dl/releases/download/$(VERSION)/$(FILENAME)
