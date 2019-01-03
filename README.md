@@ -28,6 +28,7 @@ Below are all packages listed we currently have + the version. You can also [bro
 * CouchDB (2.1.1-1)
 * Cloudflared (2018.12.1)
 * Docker-compose (0.3.0)
+* Dive (0.6.0)
 * Ethr (0.1)
 * fd (6.3.0)
 * fish (2.7.1-1)
@@ -68,13 +69,13 @@ Below are all packages listed we currently have + the version. You can also [bro
 * watchexec (1.8.6)
 * wtf (0.0.3)
 
-### Which architectures do you support?
+## Which architectures do you support?
 We currently only support x64 (amd64)
 
-### Contribute
+## Contribute
 If you want to add/update a package or help us out, create a fork of this repository and create a pull request ^^
 
-### Requirements
+## Requirements
 
 If you want to build/test a package by yourself, you need:
  * wget
@@ -85,6 +86,6 @@ If you want to build/test a package by yourself, you need:
 
 Jump to the directory (named after the package you want to build), enter your console and type in "make".
 
-### Disclaimer
+## Disclaimer
 
 The software and the projects (and their names) belong to their respective owners. If you wish your software to be removed, please contact us at contact@lumen.sh
