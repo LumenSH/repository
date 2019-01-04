@@ -1,7 +1,7 @@
 include ../../../config.mk
 
 NAME="vegeta"
-VERSION=11.2.0
+VERSION=12.2.0
 FILENAME=vegeta-${VERSION}-linux-amd64.tar.gz
 DESCRIPTION="HTTP load testing tool and library. It's over 9000!"
 DOWNLOADURL=https://github.com/tsenart/vegeta/releases/download/cli%2Fv${VERSION}/${FILENAME}

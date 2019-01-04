@@ -46,7 +46,7 @@ Below are all packages listed we currently have + the version. You can also [bro
 * rclone (1.45)
 * restic (0.9.3)
 * upx (3.94)
-* vegeta (11.2.0)
+* vegeta (12.2.0)
 * youtube-dl (2019.01.02)
 * acme.sh (2.7.9)
 * frp (0.22.0)
