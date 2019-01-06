@@ -44,7 +44,7 @@ Below are all packages listed we currently have + the version. You can also [bro
 * Keybase (1.0.45-20180315160041.29ad56926a)
 * Protobuf (3.6.1)
 * rclone (1.45)
-* restic (0.9.3)
+* restic (0.9.4)
 * upx (3.94)
 * vegeta (12.2.0)
 * youtube-dl (2019.01.02)
