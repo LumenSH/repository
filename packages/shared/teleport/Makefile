@@ -1,7 +1,7 @@
 include ../../../config.mk
 
 NAME="teleport"
-VERSION=3.1.0
+VERSION=3.1.3
 FILENAME=teleport-v$(VERSION)-linux-amd64-bin.tar.gz
 DESCRIPTION="Modern SSH server for clusters and teams. https://gravitational.com/teleport"
 

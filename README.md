@@ -62,7 +62,7 @@ Below are all packages listed we currently have + the version. You can also [bro
 * qr-filetransfer (0.1.0)
 * roadrunner (v1.2.8)
 * streamlink-twitch-gui (1.6.0)
-* teleport (3.1.0)
+* teleport (3.1.3)
 * telegraf (1.9.1-1)
 * traefik (1.6.6)
 * up (0.2.1)
