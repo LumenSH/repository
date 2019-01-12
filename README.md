@@ -60,7 +60,7 @@ Below are all packages listed we currently have + the version. You can also [bro
 * pax (0.4.1)
 * presla (0.0.10)
 * qr-filetransfer (0.1.0)
-* roadrunner (v1.2.8)
+* roadrunner (v1.3.1)
 * streamlink-twitch-gui (1.6.0)
 * teleport (3.1.3)
 * telegraf (1.9.1-1)

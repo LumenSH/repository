@@ -1,7 +1,7 @@
 include ../../../config.mk
 
 NAME="roadrunner"
-VERSION="1.2.8"
+VERSION="1.3.1"
 FILENAME="roadrunner-$(VERSION)-linux-amd64.tar.gz"
 DESCRIPTION="HTTP load testing tool and library. It's over 9000!"
 DOWNLOADURL="https://github.com/spiral/roadrunner/releases/download/v$(VERSION)/$(FILENAME)"
