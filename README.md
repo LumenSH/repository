@@ -47,7 +47,7 @@ Below are all packages listed we currently have + the version. You can also [bro
 * restic (0.9.4)
 * upx (3.94)
 * vegeta (12.2.0)
-* youtube-dl (2019.01.02)
+* youtube-dl (2019.01.16)
 * acme.sh (2.7.9)
 * frp (0.23.1)
 * gotop (1.7.0)
