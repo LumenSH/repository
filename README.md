@@ -49,7 +49,7 @@ Below are all packages listed we currently have + the version. You can also [bro
 * vegeta (12.2.0)
 * youtube-dl (2019.01.02)
 * acme.sh (2.7.9)
-* frp (0.22.0)
+* frp (0.23.1)
 * gotop (1.7.0)
 * gron (0.5.2)
 * gvisor (1.0.0)
