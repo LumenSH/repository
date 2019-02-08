@@ -1,7 +1,7 @@
 include ../../../config.mk
 
 NAME=watchexec
-VERSION=1.8.6
+VERSION=1.10.0
 DESCRIPTION="Executes commands in response to file modifications"
 
 .PHONY: package

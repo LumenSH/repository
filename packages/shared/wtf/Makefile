@@ -1,7 +1,7 @@
 include ../../../config.mk
 
 NAME=wtf
-VERSION=0.0.3
+VERSION=0.5.0
 FILENAME=restic_$(VERSION)_linux_amd64.bz2
 DESCRIPTION="A personal information dashboard for your terminal"
 DOWNLOADURL=https://github.com/senorprogrammer/wtf/releases/download/v$(VERSION)/wtf_$(VERSION)_linux_amd64.tar.gz

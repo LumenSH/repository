@@ -1,7 +1,7 @@
 include ../../../config.mk
 
 NAME="ethr"
-VERSION=0.1
+VERSION=0.2.1
 FILENAME=rclone-v$(VERSION)-linux-amd64.deb
 DESCRIPTION="Ethr is a Network Performance Measurement Tool for TCP, UDP & HTTP."
 DOWNLOADURL=https://github.com/Microsoft/Ethr/files/2646553/ethr.gz

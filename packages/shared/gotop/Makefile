@@ -1,7 +1,7 @@
 include ../../../config.mk
 
 NAME=gotop
-VERSION=2.0.0
+VERSION=2.0.1
 FILENAME=gotop_$(VERSION)_linux_amd64.tgz
 DESCRIPTION="A terminal based graphical activity monitor inspired by gtop and vtop"
 DOWNLOADURL=https://github.com/cjbassi/gotop/releases/download/$(VERSION)/$(FILENAME)
