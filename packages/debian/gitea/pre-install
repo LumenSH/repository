@@ -1,0 +1,2 @@
+useradd -m -s /usr/sbin/nologin git
+mkdir -p /var/lib/gitea /etc/gitea

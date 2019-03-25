@@ -1,0 +1,1 @@
+chown -R git:git /var/lib/gitea /etc/gitea
