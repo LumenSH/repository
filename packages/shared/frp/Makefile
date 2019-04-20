@@ -1,7 +1,7 @@
 include ../../../config.mk
 
 NAME="frp"
-VERSION=0.25.3
+VERSION=0.26.0
 FILENAME=frp_${VERSION}_linux_amd64.tar.gz
 DESCRIPTION="A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet."
 
