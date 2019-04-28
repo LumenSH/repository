@@ -1,7 +1,7 @@
 include ../../../config.mk
 
 NAME="traefik"
-VERSION=1.7.8
+VERSION=1.7.11
 FILENAME=teleport-v$(VERSION)-linux-amd64-bin.tar.gz
 DESCRIPTION="Træfik, a modern reverse proxy https://traefik.io"
 DOWNLOADURL=https://github.com/containous/traefik/releases/download/v$(VERSION)/traefik_linux-amd64
