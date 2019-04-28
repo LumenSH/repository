@@ -4,7 +4,6 @@ NAME="frp"
 VERSION=0.27.0
 FILENAME=frp_${VERSION}_linux_amd64.tar.gz
 DESCRIPTION="A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet."
-
 DOWNLOADURL=https://github.com/fatedier/frp/releases/download/v${VERSION}/${FILENAME}
 
 .PHONY: package
