@@ -1,7 +1,7 @@
 include ../../../config.mk
 
 NAME="acme.sh"
-VERSION=2.7.9
+VERSION=2.8.1
 FILENAME=acme.sh
 DESCRIPTION="A pure Unix shell script implementing ACME client protocol"
 DOWNLOADURL=https://raw.githubusercontent.com/Neilpang/acme.sh/$(VERSION)/acme.sh
