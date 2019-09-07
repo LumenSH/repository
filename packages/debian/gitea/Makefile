@@ -1,7 +1,7 @@
 include ../../../config.mk
 
 NAME=gitea
-VERSION=1.9.2
+VERSION=1.9.3
 FILENAME=gitea-$(VERSION)-linux-amd64
 DESCRIPTION="Git with a cup of tea, painless self-hosted git service"
 
