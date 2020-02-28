@@ -1,7 +1,7 @@
 include ../../../config.mk
 
 NAME=go
-VERSION=1.13.1
+VERSION=1.14
 FILENAME=go$(VERSION).linux-amd64.tar.gz
 DESCRIPTION="The Go programming language"
 DOWNLOADURL=https://dl.google.com/go/$(FILENAME)
