@@ -1,7 +1,7 @@
 include ../../../config.mk
 
 NAME=composer-bin
-VERSION=1.9.3
+VERSION=2.0.0-alpha2
 FILENAME=composer
 DESCRIPTION="Dependency Manager for PHP https://getcomposer.org/"
 DOWNLOADURL=https://getcomposer.org/download/$(VERSION)/composer.phar
