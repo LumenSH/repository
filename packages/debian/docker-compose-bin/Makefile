@@ -1,7 +1,7 @@
 include ../../../config.mk
 
 NAME=docker-compose-bin
-VERSION=1.23.1
+VERSION=1.26.2
 DESCRIPTION="Define and run multi-container applications with Docker https://docs.docker.com/compose/"
 DOWNLOADURL=https://github.com/docker/compose/releases/download/$(VERSION)/docker-compose-Linux-x86_64
 FILENAME=docker-compose
