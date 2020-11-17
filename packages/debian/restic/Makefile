@@ -1,7 +1,7 @@
 include ../../../config.mk
 
 NAME=restic
-VERSION=0.9.6
+VERSION=0.11.0
 FILENAME=restic_$(VERSION)_linux_amd64.bz2
 DESCRIPTION="Fast, secure, efficient backup program"
 DOWNLOADURL=https://github.com/restic/restic/releases/download/v$(VERSION)/$(FILENAME)
