@@ -1,4 +1,4 @@
-VERSION=1.52.2
+VERSION=1.53.2
 FILENAME=rclone-v$(VERSION)-linux-amd64.deb
 DOWNLOADURL=https://github.com/ncw/rclone/releases/download/v$(VERSION)/$(FILENAME)
 
